@@ -10,4 +10,6 @@
 
 @interface FISViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *displayField;
+
 @end
